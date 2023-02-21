@@ -1,1 +1,0 @@
-## Solution: Khi nhận được thông tin về 2 location với data có sẵn là 1 array chứa các key: Name, GoPath, RePath. Em tiến hành loop qua từng điểm bus. Check với location dầu tiên có trong goPath không, nếu có thì sẽ check trong goPath đó với location thứ 2.

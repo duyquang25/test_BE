@@ -7,11 +7,11 @@ export class GetBusDto {
   @IsNotEmpty()
   @Transform(({ value }) => value.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'))
   @IsString()
-  toLocation: string;
+  fromLocation: string;
 
-  @ApiProperty({ type: String, example: 'Yên Phụ' })
+  @ApiProperty({ type: String, example: 'Nguyễn Lương Bằng' })
   @IsNotEmpty()
   @Transform(({ value }) => value.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'))
   @IsString()
-  fromLocation: string;
+  toLocation: string;
 }
